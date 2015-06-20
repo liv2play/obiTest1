@@ -22,12 +22,12 @@
             </value>
             <next>
               <block type="oled_drawtext" id="49">
-                <field name="TEXT">rear=</field>
+                <field name="TEXT">left=</field>
                 <next>
                   <block type="oled_drawnumber" id="66" inline="true">
                     <value name="NUMBER">
-                      <block type="sensor_object" id="87">
-                        <field name="OBJECT">REAR</field>
+                      <block type="sensor_light" id="110">
+                        <field name="LIGHT">LEFT</field>
                       </block>
                     </value>
                     <next>
